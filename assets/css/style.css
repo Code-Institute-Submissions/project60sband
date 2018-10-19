@@ -12,6 +12,9 @@ html {
     text-transform: uppercase;
 }
 
+.test-div {
+    border: solid 1px;
+}
 
 /*------------------header and logo-----------------*/
 
@@ -27,6 +30,9 @@ html {
     margin: auto;
 }
 
+.row-table {
+    display: table;
+}
 
 
 /*------------------nav bar-----------------*/
@@ -60,6 +66,22 @@ html {
     background-color: #E8F3F4;
 }
 
+.logo-image {
+    height: 350px;
+}
+
+.column-section {
+    padding: 40px;
+    display: block;
+}
+
+.content-text {
+    font-family: "oswald";
+    font-weight: 500;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 80px;
+}
 
 /*------------------footer----------------*/
 
@@ -82,4 +104,20 @@ html {
 
 .inline-block {
     display: inline-block;
+}
+
+/*------------------media query----------------*/
+
+@media (min-width:992px) {
+    .section-column {
+        padding: 30px;
+        float: none;
+        display: table-cell;
+    }
+}
+
+@media (max-width:993px) {
+    .logo-image {
+        height: 176px;
+    }
 }
