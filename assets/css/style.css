@@ -1,24 +1,85 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,600,700|sans-serif:100,200,300,400,600,700');
 
-body {
+html {
     height: 100%;
     width: 100%;
 }
 
-/*------------------background colors-----------------*/
 
+/*------------------For General Use ------------------*/
 
-
-/*------------------testing area ------------------*/
-
-.position-test {
-    border: solid 1px;
+.uppercase {
+    text-transform: uppercase;
 }
+
+
+/*------------------header and logo-----------------*/
+
+.bg-header {
+    background-color: #F2F7F5;
+}
+
+.logo {
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
 
 
 /*------------------nav bar-----------------*/
 
-.
+.navbar-customer-color {
+    background-color: #F2F7F5;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    /*link colour in nav bar */
+    color: #2E2956;
+}
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+/*------------------section body-----------------*/
+
+.bg-content-body {
+    width: 100%;
+    height: 500px;
+    background-color: #E8F3F4;
+}
 
 
 /*------------------footer----------------*/
+
+.bg-footer-body {
+    width: 100%;
+    background-color: #F2F7F5;
+}
+
+.footer-text {
+    margin-left: 2%;
+    padding: 0px;
+    width: 200;
+}
+
+.footer-social-media {
+    margin-left: 50%;
+    padding: 0px;
+    width: 100px;
+}
+
+.inline-block {
+    display: inline-block;
+}
