@@ -14,78 +14,75 @@
 </head>
 
 <body>
-    <!-----------------------heading and nav START------------------->
-    <heading class="containter-fluid bg-header">
-        <div class="column">
-            <div class="row-logo bg-header">
-                <a class="logo">
-                <img src="./assets/images/logo.png">
-                </img>
-            </a>
+    <div class="wrapper">
+        <!-----------------------heading and nav START------------------->
+        <heading class="containter-fluid bg-header">
+            <div class="col-xs-3 col-sm-3 logo">
+                <div class="row">
+                    <img src="./assets/images/logo.png">
+                    </img>
+                </div>
             </div>
+            <div class="row">
+                <ul class="list-inline list-style">
+                    <il class="col-xs-6 col-sm-2 link-style link-effects">
+                        <a class="uppercase" href="index.html">Home</a>
+                    </il>
+                    <il class="col-xs-6 col-sm-2 link-style link-effects">
+                        <a class="uppercase fade-underline" href="about.html">About</a>
+                    </il>
+                    <il class="col-xs-6 col-sm-2 link-style link-effects">
+                        <a class="uppercase" href="gallery.html">Gallery</a>
+                    </il>
+                    <il class="col-xs-6 col-sm-2 link-style link-effects">
+                        <a class="uppercase" href="tour.html">Tour</a>
+                    </il>
+                    <il class="col-xs-6 col-sm-2 link-style link-effects">
+                        <a class="uppercase" href="#">TV</a>
+                    </il>
+                    <il class="col-xs-6 col-sm-2 link-style link-effects">
+                        <a class="uppercase" href="contact.html">Contact</a>
+                    </il>
+                </ul>
+            </div>
+        </heading>
+        <!-----------------------heading and nav END ------------------->
+
+        <!-----------------------content START------------------->
+        <section class="containter-fluid bg-content-body">
 
             <div class="row">
-                <nav class="navbar navbar-expand-md navbar-light navbar-customer-color sticky-top">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <il class="nav-item">
-                                <a class="nav-link uppercase" href="#">Home</a>
-                            </il>
-                            <il class="nav-item">
-                                <a class="nav-link uppercase" href="#">About</a>
-                            </il>
-                            <il class="nav-item">
-                                <a class="nav-link uppercase" href="#">Gallery</a>
-                            </il>
-                            <il class="nav-item">
-                                <a class="nav-link uppercase" href="#">Tour</a>
-                            </il>
-                            <il class="nav-item">
-                                <a class="nav-link uppercase" href="#">Contact</a>
-                            </il>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
+                <div class="col-sx-12 col-sm-12 col-md-4 col-lg-4 column-section content-text">
+                    <div class="row">
 
-    </heading>
-    <!-----------------------heading and nav END ------------------->
-
-    <!-----------------------content START------------------->
-    <section class="containter-fluid bg-content-body">
-
-        <div class="row">
-            <div class="col-sx-12 col-sm-12 col-md-4 col-lg-4 column-section content-text">
-                <div class="row">
-                    <span>  Hey, hey, we're the Monkees <br>
+                        <span class="responsive-text">  Hey, hey, we're the Monkees <br>
                         And people say we monkey around <br>
                         But we're too busy singing <br>
                         To put anybody down
                     </span>
+
+                    </div>
+                </div>
+
+                <div class="col-sx-12 col-sm-12 col-md-8 col-lg-6 column-section content-image">
+                    <div class="row">
+
+                        <img class="logo-image responsive-image" src="./assets/images/monkees.jpg" alt="The Monkees">
+                        </img>
+
+                    </div>
                 </div>
             </div>
-
-            <div class="col-sx-12 col-sm-12 col-md-8 col-lg-6 column-section content-image">
-                <div class="row">
-                    <img class="logo-image" src="./assets/images/monkees.jpg" alt="The Monkees">
-                    </img>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-----------------------content END ------------------->
-
+        </section>
+        <!-----------------------content END ------------------->
+    </div>
     <!-----------------------footer START ------------------->
     <footer class="container-fluid bg-footer-body">
         <div class="row">
             <div class="col-sm-6">
                 <h5 class="uppercase">about the band</h5>
                 <p class="inline-block">
-                    Michael, Peter, Micky and Davy. <br> Meet the band <span><a href="#">here</a></span>
+                    Michael, Peter, Micky and Davy. <br> Meet the band <span><a href="about.html">here</a></span>
                 </p>
             </div>
 
