@@ -93,7 +93,7 @@ body {
     width: 100%;
     margin: 20px auto 20px auto;
     border-bottom: 1px solid #ccc;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 35px 10px;
 }
 
 .about-team {
@@ -113,6 +113,9 @@ body {
     width: 270px;
 }
 
+.center-image {
+    text-align: center;
+}
 
 /*------------------footer----------------*/
 
