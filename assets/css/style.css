@@ -117,11 +117,39 @@ body {
     text-align: center;
 }
 
-/*------------------about----------------*/
+/*------------------Gallery----------------*/
 
 .btn-size {
     margin: 5px;
 
+}
+
+/*------------------tv and music----------------*/
+
+.video-size {
+    width: 100%;
+    height: 296px;
+}
+
+.tv-size {
+    width: 560px;
+    height: 315px;
+}
+
+}
+
+.tv-music-title {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+.tv-music-sub {
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
 }
 
 /*------------------footer----------------*/
