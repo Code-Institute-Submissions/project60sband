@@ -126,8 +126,11 @@ body {
 
 /*------------------tv and music----------------*/
 
+.col-style {
+    text-align: center;
+}
 .video-size {
-    width: 100%;
+    width: 75%;
     height: 296px;
 }
 
@@ -136,6 +139,18 @@ body {
     height: 315px;
 }
 
+.single-format {
+    text-align: center;
+    width: auto;
+}
+
+.audio-format {
+    width: 100%;
+}
+
+.smooth-single-image {
+    border-radius: 2%;
+    width: 100%;
 }
 
 .tv-music-title {
