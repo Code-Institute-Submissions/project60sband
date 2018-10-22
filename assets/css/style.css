@@ -97,7 +97,7 @@ body {
 }
 
 .about-team {
-    margin: 0;
+    margin-bottom: 10px;
     text-align: center;
     font-family: "Oswald";
 }
@@ -109,12 +109,19 @@ body {
 }
 
 .smooth-image {
-    border-radius: 10%;
+    border-radius: 2%;
     width: 270px;
 }
 
 .center-image {
     text-align: center;
+}
+
+/*------------------about----------------*/
+
+.btn-size {
+    margin: 5px;
+
 }
 
 /*------------------footer----------------*/
