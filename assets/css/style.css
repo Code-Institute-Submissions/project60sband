@@ -129,6 +129,7 @@ body {
 .col-style {
     text-align: center;
 }
+
 .video-size {
     width: 75%;
     height: 296px;
@@ -165,6 +166,26 @@ body {
     text-align: center;
     font-size: larger;
     margin-top: 10px;
+}
+
+/*------------------contact page----------------*/
+
+.row-size-contact {
+    margin: 0px;
+}
+
+.contact-us-headings {
+    width: 100%;
+    text-align: center;
+}
+
+.form-input-format {
+    width: 60%;
+}
+
+.set-height {
+    height: 34em;
+    margin-top: 20px;
 }
 
 /*------------------footer----------------*/
