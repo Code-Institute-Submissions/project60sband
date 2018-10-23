@@ -184,8 +184,32 @@ body {
 }
 
 .set-height {
-    height: 34em;
     margin-top: 20px;
+}
+
+.table_row {
+    border-bottom: solid 0.5px #a4a4a4;
+}
+
+/*------------------Tour----------------*/
+
+.row-size-tour {
+    margin: 0px;
+}
+
+.table_tour {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.tour-image {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.tour-image img {
+    width: 60%;
 }
 
 /*------------------footer----------------*/
