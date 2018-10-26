@@ -65,8 +65,13 @@ body {
     transition: 1s ease-in-out;
     background-color: #C1511D;
     border-radius: 50%;
+    color: #fafafa;
 }
 
+.link-style a:hover {
+    transition: 1s ease-in-out;
+    color: #fafafa;
+}
 .navbar-bottom {
     border-bottom: solid 2px #a4a4a4;
 }
@@ -235,12 +240,11 @@ body {
 
 .set-footer-social {
     width: 100px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
-.set-footer-text {
-    
-}
+
+
 
 .inline-block {
     display: inline-block;
@@ -257,6 +261,26 @@ body {
     display: inline-grid;
 }
 
+.social-links il {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: large;
+    background: #a4a4a4;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social-links il a i {
+    color: #fafafa;
+}
+
+.social-links il:hover {
+    transition: 1s ease-in-out;
+    background-color: #C1511D;
+;
+}
 .col-footer {
     margin-left: 50px;
     position: absolute;
