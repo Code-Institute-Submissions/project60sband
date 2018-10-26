@@ -72,6 +72,7 @@ body {
     transition: 1s ease-in-out;
     color: #fafafa;
 }
+
 .navbar-bottom {
     border-bottom: solid 2px #a4a4a4;
 }
@@ -279,8 +280,9 @@ body {
 .social-links il:hover {
     transition: 1s ease-in-out;
     background-color: #C1511D;
-;
+    ;
 }
+
 .col-footer {
     margin-left: 50px;
     position: absolute;
@@ -300,10 +302,35 @@ body {
     }
 }
 
-
-
 @media (max-width:639px) {
     .social-hide {
         display: none;
+    }
+
+}
+
+@media (max-width:376px) {
+    .nav-link {
+        margin: 0 5px 0 5px;
+        font-size: small;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .set-nav {
+        padding: 0;
+        margin: 0;
+    }
+    .logo-image {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:321px) {
+    .set-footer-text p {
+        width: 180px;
     }
 }
