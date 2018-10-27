@@ -41,19 +41,33 @@ THEN I expect to see [Page]
 Desktop
 Mobile
 
-[LINK]                  [PAGE]
-HOME                    index.html
-ABOUT                   about.html
-GALLERY                 gallery.html
-TOUR                    tour.html
-TV/MUSIC                tv_music.html
-CONTACT                 contact.html
-FaceBook                www.facebook.com/TheMonkees/
-Tiwitter                www.twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
-InstaGram               https://www.instagram.com/themonkees/
-Youtube                 https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA
-Tour | Book Event       https://www.songkick.com/concerts/35059859-monkees-at-count-basie-center-for-the-arts
-Gallery | Amazom Buy    https://www.amazon.com/Monkees-More-Greatest-Hits/dp/B000008IKD
+[LINK]                  
+1. HOME                    
+2. ABOUT                   
+3. GALLERY             
+4. TOUR                    
+5. TV/MUSIC                
+6. CONTACT                 
+7. FaceBook                
+8. Tiwitter                
+9. InstaGram               
+10. Youtube                 
+11. Tour | Book Event       
+12. Gallery | Amazom Buy   
+
+[PAGE]
+1. index.html
+2. about.html
+3. gallery.html
+4. tour.html
+5. tv_music.html
+6. contact.html
+7. www.facebook.com/TheMonkees/
+8. www.twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+9. https://www.instagram.com/themonkees/
+10. https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA
+11. https://www.songkick.com/concerts/35059859-monkees-at-count-basie-center-for-the-arts
+12. https://www.amazon.com/Monkees-More-Greatest-Hits/dp/B000008IKD
 
 
 ## Deployment
