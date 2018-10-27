@@ -281,7 +281,7 @@ body {
     display: inline-grid;
 }
 
-.social-links il {
+.social-links {
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: large;
@@ -290,13 +290,13 @@ body {
     height: 30px;
     text-align: center;
     border-radius: 50%;
+    text-decoration: none;
 }
 
-.social-links il a i {
+.social-links a i {
     color: #fafafa;
 }
-
-.social-links il:hover {
+.social-links:hover {
     transition: 1s ease-in-out;
     background-color: #C1511D;
     -webkit-transition: 1s ease-in-out;
