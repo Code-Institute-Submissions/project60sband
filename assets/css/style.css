@@ -25,6 +25,23 @@ body {
     padding-left: 0px;
 }
 
+.button-custom {
+    background: #a4a4a4;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.button-custom:hover {
+    transition: 1s ease-in-out;
+    background-color: #C1511D;
+    color: #ffffff;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+}
+
 /*------------------header and logo-----------------*/
 
 .bg-colour-1 {
@@ -66,11 +83,15 @@ body {
     background-color: #C1511D;
     border-radius: 50%;
     color: #fafafa;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
 }
 
 .link-style a:hover {
     transition: 1s ease-in-out;
     color: #fafafa;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
 }
 
 .navbar-bottom {
@@ -245,8 +266,6 @@ body {
 }
 
 
-
-
 .inline-block {
     display: inline-block;
 }
@@ -280,7 +299,8 @@ body {
 .social-links il:hover {
     transition: 1s ease-in-out;
     background-color: #C1511D;
-    ;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
 }
 
 .col-footer {

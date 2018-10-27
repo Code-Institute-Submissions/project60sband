@@ -6,19 +6,20 @@ The project is to build a fan site for the 60s band, The Monkees.
 
 Keeping the UI simple to follow. 6 pages.
 
-[add in some mock ups]
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Mockups can be found in ./assets/wireframe
 
 ## Features
 
 - Contact Us section
 - video, audio and youtube files 
+- links to amazome pages to buy items
+- links to booking events
 
 ### Features Left to Implement
 
-- add in some spotify links
-- expand the Contact US form to capture more information
-- Makes Content US a pop up form and add links to footer
+- add in some spotify links (or mini player).
+- expand the Contact US form to capture more information.
+- Makes Contact US a pop up form and add links to footer.
 
 ## Technologies Used
 
@@ -49,21 +50,19 @@ TV/MUSIC                tv_music.html
 CONTACT                 contact.html
 FaceBook                www.facebook.com/TheMonkees/
 Tiwitter                www.twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
-InstaGram
+InstaGram               https://www.instagram.com/themonkees/
 Youtube                 https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA
+Tour | Book Event       https://www.songkick.com/concerts/35059859-monkees-at-count-basie-center-for-the-arts
+Gallery | Amazom Buy    https://www.amazon.com/Monkees-More-Greatest-Hits/dp/B000008IKD
 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+Code is hosted on GitHub.
+So special configuration ot set up need to view the page.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+To run locally just download the repro and open index.html
 
 
 ### Media
