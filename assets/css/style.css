@@ -270,11 +270,8 @@ body {
     display: inline-block;
 }
 
-.social-button {
-    background-color: grey;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+.social-display {
+    display: grid;
 }
 
 .social-links {
@@ -296,6 +293,7 @@ body {
 .social-links a i {
     color: #fafafa;
 }
+
 .social-links:hover {
     transition: 1s ease-in-out;
     background-color: #C1511D;
